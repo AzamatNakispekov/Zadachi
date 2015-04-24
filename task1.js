@@ -1,14 +1,13 @@
-var mass = [];
+var mass = [3,2,5,7,4];
 var i;
 var sum=0;
 
-console.log('массив')
-for(i=0;i<=5;i++) {
-    console.log( i );
-}
+console.log('massiv')
+console.log(mass)
 
-console.log('сложенный массив')'
+
+console.log('summary massiv');
 for(i=0;i<=5;i++) {
-    sum=sum+i;
+    sum=sum+mass[i];
     console.log(sum)
 }
