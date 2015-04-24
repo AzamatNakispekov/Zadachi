@@ -7,7 +7,7 @@ console.log(mass)
 
 
 console.log('summary massiv');
-for(i=0;i<=mass[i];i++) {
+for(i=0;i<=mass.length;i++) {
     sum=sum+mass[i];
     console.log(sum)
 }
