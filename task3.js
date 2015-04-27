@@ -11,29 +11,29 @@ var a = Number(namber);
       var b = Number(namberr);
 s= a + b ;
 console.log('сумма=',s);
-r=namber-namberr;
+r=a-b;
 console.log('разность=',r);
-d=namber/namberr;
+d=a/b;
 console.log('деление=',d);
-u=namber*namberr;
+u=a*b;
 console.log('умножение=',u)
 
 
-var max= namber;
+var max= a;
 
-if(namber>namberr)
+if(a>b)
 {
 
-    console.log("Число",namber,"больше","числа",namberr);
+    console.log("Число",a,"больше","числа",b);
 }
 else 
-if(namberr==namber){
+if(b==a){
 
-    console.log("Число",namber,"и число",namberr," являются равными")
+    console.log("Число",a,"и число",b," являются равными")
 
 }
 
 else {
-console.log("Число",namberr,"больше","числа",namber);}
+console.log("Число",b,"больше","числа",a);}
   });
 })
