@@ -7,8 +7,9 @@ read({ prompt : 'Введите первое число'}, function (err, namber
   read({ prompt : 'Введите второе число'}, function (err, namberr) {
    process.stdin.destroy();
 console.log('Введенное вами первое число =',namber,'Веденное вами второе число =',namberr);
-
-s=(namber)+(namberr);
+var a = Number(namber);
+      var b = Number(namberr);
+s= a + b ;
 console.log('сумма=',s);
 r=namber-namberr;
 console.log('разность=',r);
