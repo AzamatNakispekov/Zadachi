@@ -1,30 +1,39 @@
 
 var s,r,d,u;
-var namber1=18;
-console.log("ваше первое число=",namber1);
-var namber2=19;
-console.log("ваше второе число=",namber2);
-s=namber1+namber2;
-console.log('сумма=',s);
-r=namber1-namber2;
-console.log('разность=',r);
-d=namber1/namber2;
-console.log('деление=',d);
-u=namber1*namber2;
-console.log('умножение=',u)
-var max= namber1;
+var read = require('read');
 
-if(namber1>namber2)
+
+read({ prompt : 'Введите первое число'}, function (err, namber) {
+  read({ prompt : 'Введите второе число'}, function (err, namberr) {
+    console.log(namber, namberr);
+    process.stdin.destroy();
+
+
+s=namber+namberr;
+console.log('сумма=',s);
+r=namber-namberr;
+console.log('разность=',r);
+d=namber/namberr;
+console.log('деление=',d);
+u=namber*namberr;
+console.log('умножение=',u)
+
+
+var max= namber;
+
+if(namber>namberr)
 {
 
-    console.log("Число",namber1,"больше","числа",namber2);
+    console.log("Число",namber,"больше","числа",namberr);
 }
 else 
-if(namber2==namber1){
+if(namberr==namber){
 
-    console.log("Число",namber1,"и число",namber2," являются равными")
+    console.log("Число",namber,"и число",namberr," являются равными")
 
 }
 
 else {
-console.log("Число",namber2,"больше","числа",namber1);}
+console.log("Число",namberr,"больше","числа",namber);}
+  });
+})
