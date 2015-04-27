@@ -5,11 +5,10 @@ var read = require('read');
 
 read({ prompt : 'Введите первое число'}, function (err, namber) {
   read({ prompt : 'Введите второе число'}, function (err, namberr) {
-    console.log(namber, namberr);
-    process.stdin.destroy();
+   process.stdin.destroy();
 console.log('Введенное вами первое число =',namber,'Веденное вами второе число =',namberr);
 
-s=namber+namberr;
+s=(namber)+(namberr);
 console.log('сумма=',s);
 r=namber-namberr;
 console.log('разность=',r);
