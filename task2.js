@@ -1,14 +1,10 @@
-var mass = [17,6,15,8,2,20];
+var mass = [17,6,15,8,2,20,12];
 var i;
 var res=0;
 
-console.log('массив')
-
-    console.log( mass );
-
 console.log('массив с вычисленной разницей')
-for(i=0;i<= mass.length ;i++) 
+for(i=0;i<= mass.length-2;i++) 
 {
-res=(mass[i+1]-mass[i]);
-    console.log(res);
+console.log(mass[i],res=([mass[i]-mass[i+1]]));
+    
 }
