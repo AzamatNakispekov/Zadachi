@@ -1,0 +1,84 @@
+.half-circle1{
+ background: red;
+ position:absolute;
+ height:350px;
+ width: 750px;
+ top: 100px;
+ left: 600px;
+ border-radius: 350px 350px 0 0;
+ }
+
+.half-circle2{
+ background: orange;
+ position:absolute;
+ height:330px;
+ width: 700px;
+ top: 20px;
+ left: 25px;
+    
+ border-radius: 450px 450px 0 0;
+ }
+.half-circle3{
+ background: yellow;
+ position:absolute;
+ height:310px;
+ width: 650px;
+ top: 20px;
+ left: 25px;
+    
+ border-radius: 550px 550px 0 0;
+ }
+.half-circle4{
+ background: green;
+ position:absolute;
+ height:290px;
+ width: 600px;
+ top: 20px;
+ left: 25px;
+    
+ border-radius: 650px 650px 0 0;
+ }
+
+.half-circle5{
+ background: cyan;
+ position:absolute;
+ height:270px;
+ width: 550px;
+ top: 20px;
+ left: 25px;
+    
+ border-radius: 750px 750px 0 0;
+ }
+
+.half-circle6{
+ background:blue;
+ position:absolute;
+ height:250px;
+ width: 500px;
+ top: 20px;
+ left: 25px;
+    
+ border-radius: 850px 850px 0 0;
+ }
+
+.half-circle7{
+ background:violet;
+ position:absolute;
+ height:230px;
+ width:450px;
+ top: 20px;
+ left: 25px;
+    
+ border-radius: 950px 950px 0 0;
+ }
+
+.half-circle8{
+ background:white;
+ position:absolute;
+ height:210px;
+ width:400px;
+ top: 20px;
+ left: 25px;
+    
+ border-radius: 280px 280px 0 0;
+ }
